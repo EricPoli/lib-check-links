@@ -5,7 +5,7 @@
   "keywords": ["markdown", "URL"],
   "main": "./cli.js",
   "bin": {
-    "<lib-check-links>": "./cli.js"
+    "lib-check-links": "./cli.js"
   },
   "preferGlobal": true,
   "scripts": {
