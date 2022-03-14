@@ -1,21 +1,32 @@
 {
-  "name": "node",
+  "name": "lib-check-links",
   "version": "1.0.0",
-  "description": "",
-  "main": "script.js",
+  "description": "Check Links is a library made for extracting, displaying and testing links within a 'Markdown' type text file.",
+  "keywords": ["markdown", "URL"],
+  "main": "./cli.js",
+  "bin": {
+    "<lib-check-links>": "./cli.js"
+  },
+  "preferGlobal": true,
   "scripts": {
     "test": "jest ./test",
-    "cli": "node cli.js ./files/notes.md"
+    "cli": "node ./src/cli.js"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EricPoli/lib-check-links.git"
+  },
+  "author": "Eric Polini",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EricPoli/lib-check-links.git/issues"
+  },
+  "homepage": "https://github.com/EricPoli/lib-check-links.git#readme",
   "dependencies": {
     "chalk": "^4.1.2",
-    "fs-js": "^1.0.6",
     "node-fetch": "^2.6.1"
   },
   "devDependencies": {
-    "jest": "^27.5.1"
+    "jest": "^27.0.6"
   }
-}
+ }
